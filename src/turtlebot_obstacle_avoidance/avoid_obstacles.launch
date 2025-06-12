@@ -1,0 +1,5 @@
+<launch>
+    <node name="avoid_obstacles_node" pkg="hw_pkg" type="avoid_obstacles_script.py" />
+    
+    <node name="teleop_node" pkg="turtlebot3_teleop" type="turtlebot3_teleop_key" output = "screen" />
+</launch>
